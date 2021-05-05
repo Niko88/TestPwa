@@ -16,7 +16,7 @@ jobs:
 
         # Generate the website
         - name: Publish
-          run: dotnet publish TestPwa.csproj --configuration Release
+          run: dotnet publish  ../TestPwa/TestPwa.csproj  --configuration Release
 
         # Publish the website
         - name: GitHub Pages action
